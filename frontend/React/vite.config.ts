@@ -54,7 +54,7 @@ export default defineConfig({
     port: 8080,
     proxy: {
       "/solve": {
-        target: "http://127.0.0.1:8002",
+        target: "https://openeuler-smartsearch.test.osinfra.cn/",
         changeOrigin: true,
       },
     },
